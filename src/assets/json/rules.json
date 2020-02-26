@@ -1,0 +1,12 @@
+{
+	"mobile": [
+		{
+			"required": true,
+			"message": "请输入门店招牌名称",
+			"trigger": "blur"
+		}, {
+			"pattern": "/^[0-9]*$/",
+			"message": " 只能输入6-20个字母、数字、下划线"
+		}
+	]
+}

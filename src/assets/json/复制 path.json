@@ -1,0 +1,93 @@
+{
+	"address": [
+		{
+			"name": "首页",
+			"limit": 5,
+			"page": "/dashboard",
+			"path": []
+		}, {
+			"name": "数据中心",
+			"limit": 3,
+			"page": "/data",
+			"path": [
+				{
+					"name": "数据中心1",
+					"limit": 5,
+					"page": "/data1",
+					"path": [
+						{
+							"name": "1数据中心",
+							"limit": 1,
+							"page": "/data11"
+						}, {
+							"name": "2数据中心",
+							"limit": 1,
+							"page": "/data12"
+						}
+					]
+				}, {
+					"name": "数据中心2",
+					"limit": 5,
+					"page": "/data2",
+					"path": [
+						{
+							"name": "数据中心",
+							"limit": 1,
+							"page": "/data22"
+						}
+					]
+				}, {
+					"name": "数据中心3",
+					"limit": 5,
+					"page": "/data3",
+					"path": []
+				}
+			]
+		}, {
+			"name": "微信管理",
+			"limit": 1,
+			"page": "/weixin",
+			"path": []
+		}, {
+			"name": "会员中心",
+			"limit": 1,
+			"page": "/member",
+			"path": [
+				{
+					"name": "会员管理",
+					"limit": 5,
+					"page": "/memberManager",
+					"path": [
+						{
+							"name": "会员等级",
+							"limit": 1,
+							"page": "/levelList"
+						},
+						{
+							"name": "会员列表",
+							"limit": 1,
+							"page": "/userList"
+						},
+						{
+							"name": "积分管理",
+							"limit": 1,
+							"page": "/point"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "系统管理",
+			"limit": 5,
+			"page": "/system",
+			"path": [
+				{
+					"name": "1系统管理",
+					"limit": 5,
+					"page": "/system1",
+					"path": []
+				}
+			]
+		}
+	]
+}

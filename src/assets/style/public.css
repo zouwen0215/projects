@@ -1,0 +1,273 @@
+/*淘宝官网 样式初始化*/
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+inh2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: couriernew, courier, monospace;
+}
+
+small {
+	font-size: 12px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+legend {
+	color: #000;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.el-table th {
+	background-color: #f4f9f6 !important;
+	font-size: 14px;
+	text-align: center;
+	color: #777777;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #e6e6e6;
+}
+
+:-moz-placeholder {
+	color: #e6e6e6;
+}
+
+::-moz-placeholder {
+	color: #e6e6e6;
+}
+
+:-ms-input-placeholder {
+	color: #e6e6e6;
+}
+
+.el-radio-button__orig-radio:checked+.el-radio-button__inner {
+	color: #fff;
+	background-color: #34c388;
+	border-color: #34c388;
+	-webkit-box-shadow: -1px 0 0 0 #34c388;
+	box-shadow: -1px 0 0 0 #34c388;
+}
+
+.searchText {
+	cursor: pointer;
+	color: #ffa900;
+}
+
+.editText {
+	cursor: pointer;
+	color: #0063f7;
+}
+
+.deleteText {
+	cursor: pointer;
+	color: #fd5566;
+}
+
+.el-radio-button__inner:hover {
+	color: #34C388;
+}
+
+.el-button--success:hover {
+	color: #34C388;
+	background-color: #E2F2ED;
+	border-color: #34c388;
+}
+
+.el-button--success,
+.el-button--success:focus,
+.el-button--success:hover {
+	color: #fff;
+	background-color: #34c388;
+	border-color: #34c388;
+	font-family: PingFang-SC-Medium;
+}
+.el-message{
+	top: 80px !important;
+}
+.el-input--medium .el-input__inner {
+	height: 52px;
+	width: 522px;
+}
+
+.menudemo:hover {
+	background-color: #191F28 !important;
+	color: #34c388 !important;
+}
+
+.el-dialog {
+	margin-top: 25vh !important;
+}
+
+.el-message {
+	z-index: 10000 !important;
+	margin-top: 40px !important;
+}
+
+.menudemo:focus {
+	background-color: #191F28 !important;
+	color: #34c388 !important;
+}
+
+.el-footer {
+	height: 40px !important;
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover {
+	color: #34C388;
+	background-color: #E2F2ED;
+}
+
+.el-table th.gutter {
+	display: table-cell!important;
+}
+
+.el-table colgroup.gutter {
+	display: table-cell!important;
+}
+.el-radio-button__orig-radio:checked+.el-radio-button__inner {
+    color: #fff;
+    background-color: #34c388;
+    border-color: #34c388;
+    -webkit-box-shadow: -1px 0 0 0 #34c388;
+    box-shadow: -1px 0 0 0 #34c388;
+    }
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--timerange.el-input,
+.el-date-editor--timerange.el-input__inner {
+	width: 355px;
+}
+
+.el-table td {
+	text-align: center;
+}
+
+.v-modal {
+	/* z-index:2 !important; */
+}
+
+.el-table__expanded-cell[class*=cell] {
+	padding-top: 0px;
+	padding-left: 47px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.el-dialog__wrapper {
+	margin-right: -30px;
+}
+
+.row-expand-cover .el-table__expand-icon {
+	visibility: hidden;
+}
+
+.el-cascader {
+	width: 210px;
+}
+
+.el-popper {
+	/* z-index:3 !important; */
+}
+
+.el-dialog {
+	/* z-index: 1 !important; */
+}
+
+.layout.el-popper {
+	/* z-index:0 !important; */
+}
+
+.el-dropdown-menu {
+	/* z-index: 4 !important; */
+}
