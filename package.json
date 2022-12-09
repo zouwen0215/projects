@@ -16,7 +16,7 @@
     "element-china-area-data": "^4.1.1",
     "element-ui": "^2.9.2",
     "es6-promise": "^4.2.5",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "http-proxy-middleware": "^0.18.0",
     "iview": "^2.14.3",
     "js-base64": "^2.4.8",
